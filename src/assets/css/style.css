@@ -584,10 +584,10 @@ h6 {
 .banner_area_two .one_img {
   position: absolute;
   top: -15px;
-  left: 0px;
+  left: -150px;
   opacity: 0.6;
   -webkit-animation: spin 1.5s linear infinite;
-  animation: spin 20.5s linear infinite;
+  animation: spin 1.5s linear infinite;
 }
 @-webkit-keyframes spin {
   0% {

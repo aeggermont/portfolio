@@ -7,10 +7,6 @@ import Img4 from '../../image/tr_two.png';
 import Img5 from '../../image/img-6.png';
 import Img6 from '../../image/img-8.png';
 
-/*
-
-*/
-
 const ParticlesComponent = () => {
   return (
       <React.Fragment>
@@ -56,7 +52,6 @@ const ParticlesComponent = () => {
                   width: 50,
                   height: 53,
                 },
-               
               ],
             },
             opacity: {

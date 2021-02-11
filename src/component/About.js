@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
-import {Fade, Reveal} from 'react-reveal';
+import {Fade, Reveal} from 'react-reveal/';
 
 class About extends Component {
     render(){
-        let aaeData = this.props.aaeData; 
+        let jhonData = this.props.jhonData; 
         var {aClass} = this.props;
         return(
             <section className={`${aClass}`} id="about">
@@ -13,9 +13,9 @@ class About extends Component {
                         <div className="col-lg-7 d-flex align-items-center">
                             <Fade bottom cascade duration={1000}>
                                 <div className="about_content">
-                                    <h2 className="t_color">{aaeData.aboutme}</h2>
-                                    <h6>{aaeData.role}</h6>
-                                    <p>{aaeData.aboutdetails}</p>
+                                    <h2 className="t_color">{jhonData.aboutme}</h2>
+                                    <h6>{jhonData.role}</h6>
+                                    <p>{jhonData.aboutdetails}</p>
                     
                                     <Link to="/"  className="theme_btn active">Hire Me</Link>
                                     <Link to="/" className="theme_btn">Download CV</Link>
