@@ -5,7 +5,7 @@ import Typer from './Typer';
 
 class ParticlesBanner extends Component {
     render(){
-        let jhonData = this.props.jhonData;
+        let aaeData = this.props.aaeData;
         return(
             <section id="home">
                 <div className="banner_area_two">
@@ -14,15 +14,15 @@ class ParticlesBanner extends Component {
                     <div className="container">
                         <div className="banner_content">
                             <Reveal effect="fadeInUp">
-                                <h2 className="wow fadeInLeft animated">I'm {jhonData.name2}</h2>
+                                <h2 className="wow fadeInLeft animated">I'm {aaeData.name2}</h2>
                             </Reveal>
                             <Reveal effect="fadeInUp" duration={1500}>
-                                <h3>{jhonData.ptext}</h3>
+                                <h3>{aaeData.ptext}</h3>
                             </Reveal>
                             <Typer heading={'Specialized in'} dataText={["Web Development", "UI/UX Design", "Interaction Design", "User Research", "Machine Leaning Applications"]} />
                             <ul className="list_style social_icon">
                             {
-                                jhonData.socialLinks && jhonData.socialLinks.map(item =>{
+                                aaeData.socialLinks && aaeData.socialLinks.map(item =>{
                                 return(
                                         <li key={item.name}>
                                             <a  href={item.url}><i className={item.className}></i></a> 

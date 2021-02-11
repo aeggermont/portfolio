@@ -17,6 +17,8 @@ import Contact from './component/Contact';
 import Skill from './component/Skill/Skill';
 import Footer from './component/Footer';
 import jhonData from './component/jhonData';
+import aaeData from './component/aaeData';
+
 
 /*
 import Service from './component/Service';
@@ -32,13 +34,13 @@ import Clientslogo from './component/Clientslogo';
 export const Home3 = () => (
   <div className="body_wrapper">
       <Navbar mClass="dark_menu" mContainer="custome_container" mainlogo="logo2.png" stickylogo="logo.png"/>
-      <ParticlesBanner jhonData={jhonData}/>
-      <About aClass='about_area bg_color' jhonData={jhonData}/>
+      <ParticlesBanner aaeData={aaeData}/>
+      <About aClass='about_area bg_color' aaeData={aaeData}/>
       <Blog/>
       <Portfolio pClass="bg_color"/>
       
-      <Contact jhonData={jhonData}/>
-      <Footer jhonData={jhonData}/>
+      <Contact aaeData={aaeData}/>
+      <Footer aaeData={aaeData}/>
   </div>
 )
 
