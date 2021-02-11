@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>John Deo - React Landing Page Templates</title>
+        <meta name="description" content="">
+		<!-- Mobile Specific Meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="shortcut icon" href="img/favicon.ico">
+        
+        <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet'>
+        
+        <!-- Syntax Highlighter -->
+        <link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shCore.css" media="all">
+        <link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shThemeDefault.css" media="all">
+		
+		<!-- Font Awesome CSS-->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <!-- Normalize/Reset CSS-->
+		<link rel="stylesheet" href="css/normalize.min.css">
+		<!-- Main CSS-->
+        <link rel="stylesheet" href="css/main.css">
+		
+    </head>
+	
+    <body id="welcome">
+    
+        <aside class="left-sidebar">
+            <div class="logo">
+                <a href="#welcome">
+                    <img src="img/logo2.png" alt="">
+                </a>
+            </div>
+            <nav class="left-nav">
+                <ul id="nav">
+                    <li class="current"><a href="#welcome">Welcome</a></li>
+                    <li><a href="#installation">Installation</a></li>
+                    <li><a href="#tmpl-structure">Structure</a></li>
+                    <li><a href="#css-structure">CSS Files</a></li>
+                    <li><a href="#javascript">JavaScript Libraries</a></li>
+                    <li><a href="#credit">Source and Credit</a></li>
+                </ul>
+            </nav>
+        </aside>
+		
+		<div id="main-wrapper">
+		    <div class="main-content">
+		        <section id="welcome">
+		            <div class="content-header">
+		                <h1>John Deo - React Landing Page Templates</h1>
+		            </div>
+		            <div class="welcome">
+                        
+                        <h2 class="twenty">Welcome To John Deo - React Landing Page Templates Documentation.</h2>
+
+                        <p>Firstly, a huge thanks for purchasing this theme, your support is truly appreciated!</p>
+
+                        <p>This document covers the installation and use of this theme and often reveals answers to common problems and issues - read this document thoroughly if you are experiencing any difficulties. If you have any questions that are beyond the scope of this document, feel free to email at <code><a href="mailto:ronymia015@gmail.com">ronymia015@gmail.com</a></code> Thank you so much!</p>
+		            </div>
+		            
+		            <div class="features">
+		                <h2 class="twenty">Template Features</h2>
+		                
+		                <ul>
+		                    <li>Clean &amp; Simple Design</li>
+                            <li>HTML5 &amp; CSS3</li>
+							<li>Parallax Section</li>
+                            <li>Fully Responsive Design</li>
+                            <li>All files are well commented</li>
+                            <li>Cross Browser Compatible with IE11+, Firefox, Safari, Opera, Chrome</li>
+                            <li>Extensive Documentation</li>
+		                </ul>
+		            </div>
+
+		        </section>
+		        
+		        <section id="installation">
+                    <div class="content-header">
+		                <h1>John Deo - React Landing Page Templates</h1>
+                    </div>
+                    <h2 class="title">Installing Template.</h2>
+                    
+                    <div class="section-content">
+                        <ol>
+                            <li>After unzip the download pack, you'll found a Template Folder with all the files.</li>
+                            <li>Then open john react folder Visual Studio Code editor and check your computer node js version.</li>
+                            <li>Then write yarn press Enter</li>
+                            <li>You can view this Template in any browser please write yarn start, you can display or edit the Template without an internet connection.(May not wotrk fonts and google map).</li>
+                            <li>Now go to your cpanel or open your FTP Client (like <a target="_blank" href="https://filezilla-project.org/download.php">Filezilla</a>) and upload the content of the Template on your server root.</li>
+                            <li>Once the files are done uploading go to www.yourdomainname.com/</li>
+                        </ol>
+                    </div>
+		            
+		        </section>
+
+
+		        <section id="tmpl-structure">
+		            <h2 class="title">Template Structure</h2>
+		            <p class="fifteen">All information within the main content area is nested within a body tag. The general template structure is pretty the same throughout the template. Here is the general structure of main page (index.html).</p>
+		            <pre class="brush: html">
+                        import React, {Component} from 'react';
+                        import { Link } from 'react-router-dom';
+                        import { Parallax} from 'react-parallax';
+
+                        class Banner extends Component {
+                            render(){
+                                let jhonData = this.props.jhonData;
+                                return(
+                                    <section  id="home">
+                                        <Parallax bgImage={require('../../image/profile.jpg')} strength={500} className="banner_area">
+                                            <div className="container">
+                                                <div className="banner_content">
+                                                    <h5 className="wow fadeInUp animated">HELLO</h5>
+                                                    <h2 className="wow fadeInLeft animated">I am {jhonData.name},</h2>
+                                                    <h4 className="wow fadeInUp anoimated">Visual Designer & Front-end Developer</h4>
+                                                    <ul className="list_style social_icon">
+                                                    {
+                                                        jhonData.socialLinks && jhonData.socialLinks.map(item =>{
+                                                        return(
+                                                                <li key={item.name}>
+                                                                <Link to="/" href={item.url}><i className={item.className}></i></Link> 
+                                                                </li>
+                                                                )
+                                                            }
+                                                        )
+                                                    }
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </Parallax>
+                                    </section>
+                                );
+                            }
+                        }
+
+                        export default Banner;
+		            </pre>
+		        </section>
+
+
+		        <section id="css-structure">
+		            <h2 class="title">CSS Files and Structure</h2>
+		            <p class="fifteen">These are the css files that are loaded into templates in <strong>Head Section</strong>.</p>
+		            <pre class="brush: html">
+		                <!--
+					    CSS
+					    ============================================= -->
+                        import React from 'react';
+                        import ReactDOM from 'react-dom';
+                        import './index.css';
+                        import Home from './Home';
+                        import * as serviceWorker from './serviceWorker';
+
+                        import './assets/css/bootstrap.css';
+                        import './assets/css/font-awesome.min.css';
+                        import './assets/elagent-icon/style.css';
+                        import './assets/etline-icon/style.css';
+                        import './assets/css/style.css';
+                        import "slick-carousel/slick/slick.css"; 
+                        import "slick-carousel/slick/slick-theme.css";
+                        ReactDOM.render(<Home />, document.getElementById('root'));
+
+                        // If you want your app to work offline and load faster, you can change
+                        // unregister() to register() below. Note this comes with some pitfalls.
+                        // Learn more about service workers: https://bit.ly/CRA-PWA
+                        serviceWorker.unregister();
+		            </pre>
+		            
+		            <h2 class="title">Google Web Fonts</h2>
+		            
+		            <p>By default, the template loads this font from Google Web Font Services, you can change the font with the one that suits you best.</p>
+		            
+		            <pre class="brush:html">		                
+						<!--
+						Google Font
+						=========================== -->
+                        @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Open+Sans|Lora:400i");
+		            </pre>
+		            
+		            <p class="twenty">Remember to change the font into <strong>style.css</strong></p>
+		        </section>
+		        
+		        <section id="javascript">
+		            <h2 class="title">Folder Structure</h2>
+		            
+		            <p class="fifteen">These are the list of john folder that are loaded into templates.
+		            
+		            <pre class="brush: html">
+				        <!--
+						Folder Structure
+						========================== -->
+                        <ol>
+                            <li>
+                                public
+                            </li>
+                            <li>src
+                                <ol>
+                                    <li>assets</li>
+                                    <li>component</li>
+                                    <li>img</li>
+                                    <li>App css</li>
+                                    <li>index.js</li>
+                                    <li>Home.js</li>
+                                    <li>index.css</li>
+                                </ol>
+                            </li>
+                            <li>package.js</li>
+                        </ol>
+		            </pre>
+		        </section>
+                
+		        <section id="contact-form">
+		            <h2 class="title">Firebase Deployment</h2>
+		            <p>You can follow this doc for firebase hosting https://firebase.google.com/docs/hosting/quickstart.
+                        We followed the documentation and integrated with our settings.</p>
+                        <br>
+                    <h3>Step 1 : Install the Firebase CLI</h3>
+                    <ol>
+                        <li>Install Node.js using one of the following options. Installing Node.js automatically installs npm.<br>
+                        (Note: The Firebase CLI requires Node.js v6.0.0 or later.)	</li><br>
+                        <li>Install the Firebase CLI using npm by running: <br>‘npm install -g firebase-tools’</li><br>
+                        <li>
+                            Sign into Firebase using your Google account by running:<br>‘firebase login’
+                        </li><br>
+                        <li>
+                            To test that authentication worked (and to list all of your Firebase projects), run the following command:<br>`firebase list`
+                        </li>
+                    </ol> 
+                    <br>
+                    <h4>Step 2 : Initialize your project</h4>   
+                    <p>To connect your local project to your Firebase project, run the following command from the root of your local project directory: <br>`firebase init`</p>  
+                    <p>Select Firebase Hosting and Firebase function from the list. Then you have to answer couple of <br>questions like:<br>
+What language would you like to use to write Cloud Functions? JavaScript<br>
+Do you want to use ESLint to catch probable bugs and enforce style?<br>
+No<br>
+Do you want to install dependencies with npm now?<br>
+No<br>
+What do you want to use as your public directory?<br>
+public<br>
+Then, an index.html file will created under the public directory.<br>
+</p> 
+            <p>To deploy your project, you have to do couple of things. At first, go to firebase.json file. Then
+delete all codes.
+</p>
+            <p>Then, if you want to host the React js project, then go to landing.firebase.json file, copy all of the
+codes and paste it in firebase.json file.</p>
+		        </section>
+<!--
+		        <section id="subscription-form">
+		            <h2 class="title"> Subscription Form </h2>
+		            <p>Replace this with your own mailchimp post URL. Don't remove the "". Just paste the url inside "".</p>
+		            <pre class="brush: javascript">
+				        $('#mc-form').ajaxChimp({
+				            callback: mailchimpCallback,
+				            //Replace this with your own mailchimp post URL. Don't remove the "". Just paste the url inside "".
+				            url: "https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&id=92a4423d01"
+				        });
+		            </pre>		            
+		        </section>
+-->
+		        
+		        <section id="credit">
+		            <h2 class="title">Source and Credit</h2>		            
+		            <div class="script-source">
+		                <ul>
+		                    <li><a target="_blank" href="https://reactjs.org/">React Js</a></li>
+		                    <li><a target="_blank" href="http://getbootstrap.com">Bootstrap Framework</a></li>
+		                    <li><a target="_blank" href="https://react-slick.neostack.com/">React Slick Slider</a></li>
+		                    <li><a target="_blank" href="http://isotope.metafizzy.co/">Isotope</a></li>
+		                    <li><a target="_blank" href="https://www.npmjs.com/package/react-particles-js">react-particles</a></li>
+		                    <li><a target="_blank" href="https://www.npmjs.com/package/react-parallax">React parallax</a></li>
+		                    <li><a target="_blank" href="http://fontawesome.io/">FontAwesome</a></li>
+		                </ul>
+		                
+		            </div>
+		            
+		        </section>
+		    </div>
+		</div>
+		
+		
+		<!-- Essential JavaScript Libraries
+		==============================================-->
+        <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="js/jquery.nav.js"></script>
+        <script type="text/javascript" src="syntax-highlighter/scripts/shCore.js"></script> 
+        <script type="text/javascript" src="syntax-highlighter/scripts/shBrushXml.js"></script> 
+        <script type="text/javascript" src="syntax-highlighter/scripts/shBrushCss.js"></script> 
+        <script type="text/javascript" src="syntax-highlighter/scripts/shBrushJScript.js"></script> 
+        <script type="text/javascript" src="syntax-highlighter/scripts/shBrushPhp.js"></script> 
+        <script type="text/javascript">
+            SyntaxHighlighter.all()
+        </script>
+        <script type="text/javascript" src="js/custom.js"></script>
+		
+    </body>
+</html>
