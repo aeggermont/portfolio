@@ -19,7 +19,7 @@ class ParticlesBanner extends Component {
                             <Reveal effect="fadeInUp" duration={1500}>
                                 <h3>{aaeData.ptext}</h3>
                             </Reveal>
-                            <Typer heading={'Specialized in'} dataText={["Web Development", "UI/UX Design", "Interaction Design", "User Research", "Machine Leaning Applications"]} />
+                            <Typer heading={'Specialized in'} dataText={["Front-end development", "UI design", "UX Interaction Design", "User Research", "Machine Leaning Applications"]} />
                             <ul className="list_style social_icon">
                             {
                                 aaeData.socialLinks && aaeData.socialLinks.map(item =>{

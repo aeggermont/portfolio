@@ -1,6 +1,10 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
+
+/*
+<img src={require('../image/logo2.png')} alt=""/>
+*/
 class Footer extends Component{
     render(){
         let aaeData = this.props.aaeData;
@@ -9,7 +13,7 @@ class Footer extends Component{
                 <div className="container">
                     <div className="footer-content">
                         <Link to="/" className="logo wow fadeInDown" data-wow-delay="0.4s">
-                            <img src={require('../image/logo2.png')} alt=""/>
+                            
                         </Link>
                         <Fade top cascade>
                             <ul className="list_style">
@@ -24,9 +28,6 @@ class Footer extends Component{
                                 }
                             </ul>
                         </Fade>
-                        
-                        <h6>Made with love by <a href="https://themeforest.net/user/blazethemez">Blazethemez</a></h6>
-                        <p>© 2019 Blazethemez - All Rights Reserved</p>
                     </div>
                 </div>
             </section>

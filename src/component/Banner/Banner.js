@@ -18,7 +18,7 @@ class Banner extends Component {
                                 <h2>I am {jhonData.name}</h2>
                             </Reveal>
                             
-                            <h4 className="wow fadeInUp anoimated">Visual Designer & Front-end Developer</h4>
+                            <h4 className="wow fadeInUp anoimated">UX Engineer & Front-end Developer</h4>
                             <Fade  bottom cascade duration={1000}>
                                 <ul className="list_style social_icon">
                                 {

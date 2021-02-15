@@ -29,6 +29,7 @@ import Clientslogo from './component/Clientslogo';
 <Skill cClass="bg_w"/>
  <Testimonial/>
  <MapContainer/>
+ <Portfolio pClass="bg_color"/>
 */
 
 export const Home3 = () => (
@@ -37,7 +38,7 @@ export const Home3 = () => (
       <ParticlesBanner aaeData={aaeData}/>
       <About aClass='about_area bg_color' aaeData={aaeData}/>
       <Blog/>
-      <Portfolio pClass="bg_color"/>
+      
       
       <Contact aaeData={aaeData}/>
       <Footer aaeData={aaeData}/>

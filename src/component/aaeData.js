@@ -2,7 +2,7 @@ const aaeData = {
     "name": "Antonio Aranda Eggermont.",
     "name2": "Antonio Aranda Eggermont.",
     "role": "UX Engineer & Applications Developer,",
-    "ptext": "Creative UX Engineer & Software Developer.",
+    "ptext": "Applications Developer & UI/UX Engineer.",
     "socialLinks":[
         {
           "name": "Facebook",
@@ -26,7 +26,14 @@ const aaeData = {
           }
       ],
       "aboutme": "About Me",
-      "aboutdetails": "My work experience and projects have been primarily focused on developing tools, Web applications, and computer system designs that have been used in the entertainment and higher education industries. A core aspect of my work and projects has been the interaction design of meaningful experiences for the users whom I develop and design. My interest in the field of UX focuses on user research, interaction design, design thinking, experience strategy, software prototyping, and human computer interaction.",
+      "aboutdetails1": "I'm an engineer + UX designer  passionate about using technology to improve people's life. ",
+      "aboutdetails2": "My experience in software development and UX engineering has been in developing \
+       Web applications, streaming media platforms, tools for data visualization, user interfaces for ML platforms,  \
+       and digital media production. \
+       After several years of working in the technology, entertainment, and higher education industries, I discovered \
+       the field of human-computer interaction. I then became fascinated about the way design thinking and human centered \
+       design frameworks can be used to humanize technology. ",
+       
       "service":[
           {
             "id" : 1,

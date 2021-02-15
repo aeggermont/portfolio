@@ -15,8 +15,8 @@ class About extends Component {
                                 <div className="about_content">
                                     <h2 className="t_color">{aaeData.aboutme}</h2>
                                     <h6>{aaeData.role}</h6>
-                                    <p>{aaeData.aboutdetails}</p>
-                    
+                                    <p>{aaeData.aboutdetails1}</p>
+                                    <p>{aaeData.aboutdetails2}</p>
                                     <Link to="/"  className="theme_btn active">Hire Me</Link>
                                     <Link to="/" className="theme_btn">Download CV</Link>
                                 </div>
@@ -24,7 +24,7 @@ class About extends Component {
                         </div>
                         <div className="col-lg-5">
                             <div className="about_img">
-                                <Reveal effect="fadeInRight" duration={1500}><img src={require('../image/AntonioPhoto.jpg')} alt=""/></Reveal>
+                                <Reveal effect="fadeInRight" duration={1500}><img src={require('../image/apporoach_man_img.png')} alt=""/></Reveal>
                             </div>
                         </div>
                     </div>
