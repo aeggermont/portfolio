@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 
 class Service extends Component{
     render(){
-        let jhonData = this.props.jhonData;
+        let aaeData = this.props.aaeData;
         var {wClass} = this.props
         return(
             <section className={`${wClass}`} id="service">
@@ -13,7 +13,7 @@ class Service extends Component{
                     <Fade bottom cascade duration={1000}>
                         <div className="row">
                             {
-                                jhonData.service && jhonData.service.map(item =>{
+                                aaeData.service && aaeData.service.map(item =>{
                                 return(
                                         <div className="col-lg-4 col-sm-6" key={item.id}>
                                             <div className="work_item wow fadeInUp" data-wow-delay="0.1s">

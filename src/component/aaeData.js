@@ -72,6 +72,9 @@ const aaeData = {
             "sDetails" : "There are many variations of pssages of Lorm available, bu in some form, Lorem Ipsum is simply dummy text."
           }
       ],
+      "projects" : [
+
+      ],
       "contact":[
         {
           "id": "1",

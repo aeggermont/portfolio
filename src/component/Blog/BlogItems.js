@@ -28,7 +28,7 @@ class BlogItems extends Component{
                             
                 
                         </div>
-                        <a href="/#"><h2>{bTitle}</h2></a>
+                        <a href="/home2"><h2>{bTitle}</h2></a>
                         <p>{bDetails}</p>
                         <a href="/#" className="read_btn">{btnText}<i className="arrow_right"></i> </a>
                     </div>
