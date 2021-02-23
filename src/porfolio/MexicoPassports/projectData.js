@@ -28,7 +28,20 @@ const projectData = {
     "about": "",
     "aboutdetails1": "I'm an engineer + UX designer  passionate about using technology to improve people's life. ",
     "aboutdetails2": "",
-       
+    "theTeam" : ["Anton,io Aranda Eggermont", "Stephanie Blucker", "Anqui Cao", "Patriya Wiesmann", "Mojin YU"],
+    "problemStatement" : ["Mexico’s passport renewal process can be confusing. The government wanted to design a bot to \
+                          streamline the process, but they needed to know more about users’ current experiences, as well \
+                          as what they wanted from the bot.",
+                          "When the Mexican government sought to design a new experience to help citizens renew their passports, \
+                          they connected with the University of Washington’s Human Centered Design and Engineering program. \
+                          When our team joined the effort, the government had prototyped a simple bot that could schedule in-person \
+                          appointments for passport renewal, but they wanted to understand how they could use the bot to make the \
+                          entire passport renewal process more efficient and seamless. To that end, our team decided to apply a \
+                          human-centered design approach to conduct research about users and make design recommendations to refine \
+                          the existing bot experience"],
+
+
+
     "service":[
         {
         "id" : 1,

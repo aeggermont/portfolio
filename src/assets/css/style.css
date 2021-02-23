@@ -2393,6 +2393,24 @@ h6 {
 }
 /*=========== new css============*/
 
+
+/*======================= Mexico Virtual Assistants  ==================*/
+
+.culture_theory_img img {
+  width: 100%;
+}
+
+.participants-table-title-cell {
+  background-color: #0c233b;
+  
+
+}
+
+.participants-table-cell {
+  border-style: solid;
+  border-color:rgba(228, 235, 247, 0.4);
+}
+
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
