@@ -3,11 +3,6 @@ import Sticky from "react-stickynode";
 import { Link } from "react-scroll";
 
 /*
-              <img src={require("../../image/" + mainlogo)} alt="" />
-              <img src={require("../../image/" + stickylogo)} alt="" />
-
-
-
               <li className="nav-item">
                   <Link
                     className="nav-link"
@@ -21,7 +16,30 @@ import { Link } from "react-scroll";
                     Blogs
                   </Link>
                 </li>
-              */
+
+ <li className="nav-item">
+                  <Link
+                    className="nav-link"
+                    activeClass="active"
+                    to="portfolio"
+                    spy={true}
+                    smooth={true}
+                    offset={-86}
+                    duration={500}
+                  >
+                    Work
+                  </Link>
+                </li>
+
+  <!-- LOGIN BUTTON                
+  <ul className="nav navbar-nav navbar-right d-md-none d-lg-block">
+  <li className="nav-item">
+    <a href="./" className="login">
+      login
+    </a>
+  </li>
+</ul>
+ */
 
 class Navbar extends Component {
   render() {
@@ -89,19 +107,6 @@ class Navbar extends Component {
                   <Link
                     className="nav-link"
                     activeClass="active"
-                    to="portfolio"
-                    spy={true}
-                    smooth={true}
-                    offset={-86}
-                    duration={500}
-                  >
-                    Work
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link
-                    className="nav-link"
-                    activeClass="active"
                     to="blog"
                     spy={true}
                     smooth={true}
@@ -125,13 +130,7 @@ class Navbar extends Component {
                   </Link>
                 </li>
               </ul>
-              <ul className="nav navbar-nav navbar-right d-md-none d-lg-block">
-                <li className="nav-item">
-                  <a href="./" className="login">
-                    login
-                  </a>
-                </li>
-              </ul>
+              
             </div>
           </div>
         </nav>

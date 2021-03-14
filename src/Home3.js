@@ -24,6 +24,34 @@ import jhonData from './component/jhonData';
 import aaeData from './component/aaeData';
 
 
+/* 
+ TOAST EXAMPLE
+ <ExampleToast>
+        We now have Toasts
+        <span role="img" aria-label="tada">
+          🎉
+        </span>
+      </ExampleToast>
+*/
+/*
+import Service from './component/Service';
+<Service wClass="work_area_two" jhonData={jhonData}/>
+      
+import Clientslogo from './component/Clientslogo';
+<Clientslogo/>
+<Skill cClass="bg_w"/>
+ <Testimonial/>
+ <MapContainer/>
+ <Portfolio pClass="bg_color"/>
+
+  <Jumbotron>
+      <h1 className="header">Welcome To React-Bootstrap</h1>
+      <h1 className="header">Some Stuff </h1>
+  </Jumbotron>
+*/
+
+
+
 const ExampleToast = ({ children }) => {
   const [show, toggleShow] = useState(true);
 
@@ -63,40 +91,12 @@ function Example() {
   );
 }
 
-
-
-/*
-import Service from './component/Service';
-<Service wClass="work_area_two" jhonData={jhonData}/>
-      
-import Clientslogo from './component/Clientslogo';
-<Clientslogo/>
-<Skill cClass="bg_w"/>
- <Testimonial/>
- <MapContainer/>
- <Portfolio pClass="bg_color"/>
-*/
-
 export const Home3 = () => (
   <div className="body_wrapper">
       <Navbar mClass="dark_menu" mContainer="custome_container" mainlogo="logo2.png" stickylogo="logo.png"/>
       <ParticlesBanner aaeData={aaeData}/>
       <About aClass='about_area bg_color' aaeData={aaeData}/>
-      <Jumbotron>
-      <h1 className="header">Welcome To React-Bootstrap</h1>
-      <ExampleToast>
-        We now have Toasts
-        <span role="img" aria-label="tada">
-          🎉
-        </span>
-      </ExampleToast>
-    </Jumbotron>
-      
-
-    <Example />
       <Blog/>
-      
-  
       <Contact aaeData={aaeData}/>
       <Footer aaeData={aaeData}/>
   </div>
