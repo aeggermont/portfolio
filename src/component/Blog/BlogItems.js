@@ -28,9 +28,11 @@ class BlogItems extends Component{
                             
                 
                         </div>
-                        <a href="/home2"><h2>{bTitle}</h2></a>
-                        <p>{bDetails}</p>
-                        <a href="/#" className="read_btn">{btnText}<i className="arrow_right"></i> </a>
+                        <a href="/MexicoVirtAssistants"><h2>{bTitle}</h2></a>
+                        <p> A proposed chatbot design experience to stream line the application process
+                            and renewal of passports for Mexican Citizens 
+                        </p>
+                        <a href="//MexicoVirtAssistants" className="read_btn">{btnText}<i className="arrow_right"></i> </a>
                     </div>
                 </div>
             </div>

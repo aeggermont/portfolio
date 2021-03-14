@@ -2396,19 +2396,40 @@ h6 {
 
 /*======================= Mexico Virtual Assistants  ==================*/
 
+.slide-illustration img {
+  width: 100%;
+}
+
 .culture_theory_img img {
   width: 100%;
 }
 
+.personalization_img img {
+  width: 50%;
+}
+
+.interaction_flows_img img {
+  width: 100%;
+}
+
+.code_design_img img {
+  width: 80%;
+}
+
+
+
 .participants-table-title-cell {
   background-color: #0c233b;
-  
 
 }
 
 .participants-table-cell {
   border-style: solid;
   border-color:rgba(228, 235, 247, 0.4);
+}
+
+.button {
+  background-color: salmon;
 }
 
 /*---------------------------------------------------- */
