@@ -2,28 +2,20 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import {Fade, Reveal} from 'react-reveal/';
 
-/*
-<Reveal effect="fadeInRight" duration={1500}><img src={require('../image/apporoach_man_img.png')} alt=""/></Reveal>
-*/
-
-class About extends Component {
+class Prototyping extends Component {
     render(){
         let projectData = this.props.projectData; 
         var {aClass} = this.props;
         return(
             <section className={`${aClass}`} id="about">
                 <div className="container">
+                    <h3> Prototyping</h3>
                     <div className="row">
                         <div className="col-sm-8 d-flex align-items-center">
                             <Fade bottom cascade duration={1000}>
                                 <div className="about_content">
 
-                                    <h2 className="t_color">The Problem </h2>
-                                    <br></br>
-                                    <p>{projectData.problemStatement[0]}</p>
-                                    
-                                    <h2 className="t_color">The Challenge</h2>
-                                    <p>{projectData.problemStatement[1]}</p>
+                                   <h4>Prototyping text aksjdhka askjdhka askdhasd klhjasd </h4>
                                 
                                 
                                 </div>
@@ -53,4 +45,4 @@ class About extends Component {
         )
     }
 }
-export default About;
+export default Prototyping;

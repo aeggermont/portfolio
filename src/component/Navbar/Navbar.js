@@ -61,7 +61,8 @@ class Navbar extends Component {
                   <Link
                     className="nav-link"
                     activeClass="active"
-                    to="/home3"
+                    activeClassName="current"
+                    to="/"
                     spy={true}
                     smooth={true}
                     offset={-86}

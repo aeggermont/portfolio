@@ -11,22 +11,15 @@ import About from './components/About';
 import TheTeam from './components/TheTeam';
 import Research from './components/Research';
 import ProjectTimeline from './components/ProjectTimeline';
+import Ideation from './components/Ideation';
+import Prototyping from './components/Prototyping';
+import Design from './components/Design';
+import Limitations from './components/Limitations';
 
 /*
-  The Problem
-  The Team 
-  Deliverables
-  Research
-    - User Interviews
-    - Code Design
-    - Surveys
-  Ideation
-  Prototyping
-  Interaction Design
- <TheTeam projectData={projectData}></TheTeam>
-
+  <Prototyping></Prototyping>
+  <Design></Design>
 */
-
 
 export const MexicoVirtualAssistantsHome = () => (
   <div className="body_wrapper">
@@ -34,8 +27,14 @@ export const MexicoVirtualAssistantsHome = () => (
       <MexicoPassportTypeBanner aaeData={aaeData}/>
 
       <About aClass='about_area bg_color' projectData={projectData}/>
-      <ProjectTimeline  projectData={projectData}></ProjectTimeline>     
       <Research projectData={projectData}></Research>
+      <Ideation></Ideation>
+      <Design></Design>
+      
+      <br></br>
+      <br></br>
+      <Limitations></Limitations>
+      
 
       <Contact aaeData={aaeData}/>
       <Footer aaeData={aaeData}/>

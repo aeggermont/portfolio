@@ -21,10 +21,8 @@ class ProjectTimeline extends Component {
                                     <br></br>
                                     <h2 className="t_color">Project Timeline</h2>
                                     <br></br>
-                                    <h4>Key Findings</h4>
-                                    <br></br>
-                                    <div className="culture_theory_img">
-                                        <Reveal effect="fadeInRight" duration={1500}><img src={require('../../../image/MexicoVirtualAssistants/project-time-line.png')} alt=""/></Reveal>
+                                    <div>
+                                        <Reveal effect="fadeInRight" duration={1500}><img  className="slide-illustration" src={require('../../../image/MexicoVirtualAssistants/PassportBotPresentation.006.png')} alt=""/></Reveal>
                                     </div>
                                     
                                 
