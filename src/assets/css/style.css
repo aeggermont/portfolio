@@ -2394,6 +2394,10 @@ h6 {
 /*=========== new css============*/
 
 
+.headshot img {
+  width: 20%;
+}
+
 /*======================= Mexico Virtual Assistants  ==================*/
 
 .slide-illustration img {
@@ -2415,6 +2419,7 @@ h6 {
 .code_design_img img {
   width: 80%;
 }
+
 
 
 

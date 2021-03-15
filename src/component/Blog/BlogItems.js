@@ -32,7 +32,7 @@ class BlogItems extends Component{
                         <p> A proposed chatbot design experience to stream line the application process
                             and renewal of passports for Mexican Citizens 
                         </p>
-                        <a href="//MexicoVirtAssistants" className="read_btn">{btnText}<i className="arrow_right"></i> </a>
+                        <a href="/MexicoVirtAssistants" className="read_btn">{btnText}<i className="arrow_right"></i> </a>
                     </div>
                 </div>
             </div>
