@@ -1,7 +1,7 @@
 const aaeData = {
     "name": "Antonio Aranda Eggermont.",
     "name2": "Antonio Aranda Eggermont.",
-    "role": "UX Engineer & Applications Developer,",
+    "role": "UX Engineer & Applications Developer",
     "ptext": "Applications Developer & UI/UX Engineer.",
     "socialLinks":[
         {
