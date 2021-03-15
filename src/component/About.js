@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import {Fade, Reveal} from 'react-reveal/';
 
+
 class About extends Component {
     render(){
         let aaeData = this.props.aaeData; 
@@ -17,8 +18,8 @@ class About extends Component {
                                     <h6>{aaeData.role}</h6>
                                     <p>{aaeData.aboutdetails1}</p>
                                     <p>{aaeData.aboutdetails2}</p>
-                                    <Link to="/"  className="theme_btn active">Hire Me</Link>
-                                    <Link to="/" className="theme_btn">Download CV</Link>
+                                    
+                                    <Link to="/AntonioEggermontResume2021-shortversion.pdf" target="_blank" className="theme_btn">Download CV</Link>
                                 </div>
                             </Fade>
                         </div>
