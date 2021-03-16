@@ -31,20 +31,20 @@ class About extends Component {
                         </div>
                         <div className="col-sm-4">
                             <Reveal effect="fadeInRight" duration={1500}> 
-                                <h5 className="t_color">Project Type </h5>
-                                <p>Group research project focusing on international UX with Stephanie Blucker, Anqi Cao, Patriya Wiesmann and Mojin Yu </p>
+                                <h6 className="t_color">Project Type </h6>
+                                <p class="project-desciption-font-size">Group research project focusing on international UX with Stephanie Blucker, Anqi Cao, Patriya Wiesmann and Mojin Yu </p>
 
-                                <h5 className="t_color">Project Aspects </h5>
-                                <p>Research, Internation UX, Civic Tehcnologies, Ideation, Design and Digital Prototype  </p>
+                                <h6 className="t_color">Project Aspects </h6>
+                                <p class="project-desciption-font-size">Research, Internation UX, Civic Tehcnologies, Ideation, Design and Digital Prototype  </p>
 
-                                <h5 className="t_color">My Role </h5>
-                                <p>Research and interviews, interaction design, and prototypes</p>
+                                <h6 className="t_color">My Role </h6>
+                                <p class="project-desciption-font-size">Research and interviews, interaction design, and prototypes</p>
 
-                                <h5 >Timeline </h5>
-                                <p>May - Nov 2020 (7 Months)</p>
+                                <h6  className="t_color" >Timeline </h6>
+                                <p class="project-desciption-font-size">May - Nov 2020 (7 Months)</p>
 
-                                <h5 className="t_color">Sponsor </h5>
-                                <p> Mexico's Ministry of Foreign Affairs </p>
+                                <h6 className="t_color">Sponsor </h6>
+                                <p class="project-desciption-font-size"> Mexico's Ministry of Foreign Affairs </p>
                             </Reveal>
                         </div>
                     </div>

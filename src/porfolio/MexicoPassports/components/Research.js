@@ -80,11 +80,15 @@ function CultureTheory() {
                 <Reveal effect="fadeInRight" duration={1500}><img src={require('../../../image/MexicoVirtualAssistants/Culture-Theory-Findings.png')} alt=""/></Reveal>
           </div>
           <br></br>
-          <p>First, Mexico’s high power distance and low long-term orientation scores indicate an established hierarchy and system of rules that is not often questioned. This could mean, for example, that many people trust the government with their information or personal data, and respect governmental requirements.</p>
-          <p>According to Hoftede’s model, Mexico also has a low score on individualism, meaning the culture prizes relationships, especially those of family or extended family groups. Because of this, pursuing a supportive, personal, and conversational experience like the one the government had envisioned seemed like a good way to improve the relationship between the government and its citizens. Our research reflects this as well</p>
-          <p>Mexico also scores high on masculinity, meaning that it's a work-driven society that values decisiveness and assertiveness. This, combined with Mexico’s high uncertainty avoidance score, might indicate that citizens would be frustrated with a process that lacks clarity and an unsure outcome. You can find more detail on this in our findings below. </p>
-          <p>There are two other important cultural theories that impact design: high  vs. low context communication and polychronic versus monochronic. Mexico is both high context and polychronic, meaning that personalization is important and that people may prefer to multitask as opposed to focus on one thing at a time. In our next post, you’ll see that our recommended design approach ultimately blends a conversational and web experience into one interaction that feels guided, informative, and friendly</p>                   
-          </div>
+
+          <ul>
+            <li> First, Mexico’s high power distance and low long-term orientation scores indicate an established hierarchy and system of rules that is not often questioned. This could mean, for example, that many people trust the government with their information or personal data, and respect governmental requirements. </li>
+            <li> According to Hoftede’s model, Mexico also has a low score on individualism, meaning the culture prizes relationships, especially those of family or extended family groups. Because of this, pursuing a supportive, personal, and conversational experience like the one the government had envisioned seemed like a good way to improve the relationship between the government and its citizens. Our research reflects this as well. </li>
+            <li> Mexico also scores high on masculinity, meaning that it's a work-driven society that values decisiveness and assertiveness. This, combined with Mexico’s high uncertainty avoidance score, might indicate that citizens would be frustrated with a process that lacks clarity and an unsure outcome. You can find more detail on this in our findings below. </li>
+            <li> There are two other important cultural theories that impact design: high  vs. low context communication and polychronic versus monochronic. Mexico is both high context and polychronic, meaning that personalization is important and that people may prefer to multitask as opposed to focus on one thing at a time. In our next post, you’ll see that our recommended design approach ultimately blends a conversational and web experience into one interaction that feels guided, informative, and friendly. </li>
+          </ul>
+
+                  </div>
         </Collapse>
       </>
     );

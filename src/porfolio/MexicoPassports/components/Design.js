@@ -226,6 +226,7 @@ class Design extends Component {
                             </div>
                     </div>
 
+                    <a href="https://miro.com/app/board/o9J_kmHpvdI=/" target="_blank"> View Thematic Analysis in Miro Board</a>
                 </div>
             
             </section>
